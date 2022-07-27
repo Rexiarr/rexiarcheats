@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+}
+main {
+    flex: 1;
+}
+.navbar-brand img {
+    height: 50px;
+}
+.navbar-nav .nav-item a:not(.active) {
+    opacity: .8;
+    transition: all .8s;
+} 
+.navbar-nav .nav-item a:hover {
+    opacity: 1;
+}
+.service div {
+    cursor: pointer;
+    transition: box-shadow .5s;
+}
+.service div:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.container .w-100 {
+    word-break: break-word;
+}
+
+.fa-netflix {
+    background-image: url("../img/netflix.html");
+    background-position: center;
+    background-size: 1.25rem;
+    background-repeat: no-repeat;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.swal2-loading {
+    margin: 0!important;
+    width: auto!important;
+}
+.dataTables_paginate {
+    margin-top: 1rem!important;
+}
+.hide_spinner::-webkit-outer-spin-button,
+.hide_spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ayro-select {
+    border: 2px solid #0067f4!important;
+    height:44px;
+}
+.ayro-select:focus, .ayro-select:active {
+    outline:none!important;
+    box-shadow: none;
+}
+@media only screen and (max-width: 750px) {
+    .nowrap-mobile {
+        white-space: nowrap;
+    }
+}
